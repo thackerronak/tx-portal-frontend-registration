@@ -80,15 +80,15 @@ export const VerifyRegistration = ({
   }
 
   const getTooltip = () => {
-    if (!hasCompanyData()) {
-      return t('ErrorMessage.error1')
-    }
-    if (!hasRoles()) {
-      return t('ErrorMessage.error2')
-    }
-    if (!hasDocuments()) {
-      return t('ErrorMessage.error3')
-    }
+    // if (!hasCompanyData()) {
+    //   return t('ErrorMessage.error1')
+    // }
+    // if (!hasRoles()) {
+    //   return t('ErrorMessage.error2')
+    // }
+    // if (!hasDocuments()) {
+    //   return t('ErrorMessage.error3')
+    // }
     return null
   }
   const hasCompanyData = () => {
